@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
 html,
 body {
   height: 100%;
@@ -29,7 +32,7 @@ h1 {
 .title-section p {
   font-size: 2em;
 }
-#title-section-bio-image {
+.title-section-bio-image {
   margin-top: 10px;
   border-radius: 50%;
   height: 35%;
@@ -41,7 +44,7 @@ h1 {
   height: 50px;
 }
 .navbar ul {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(220, 220, 220);
   overflow: hidden;
   list-style-type: none;
   text-align: center;
