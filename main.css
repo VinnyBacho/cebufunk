@@ -7,7 +7,7 @@ body {
   position: relative;
 }
 body {
-  background: rgb(240, 240, 240);
+  /* background: rgb(240, 240, 240) !important; */
   margin: 0;
 }
 div,

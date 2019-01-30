@@ -11,11 +11,11 @@ require('database.php');
         <ul>
           <li><a href="index.php">Home</a></li>
           <li>Bio</li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="contact-cebu.php">Contact</a></li>
         </ul>
       </div>
       <div class="content-section">
-        <!-- We made need a PHP script here so dad can put in information -->
+        <!-- We made a PHP script here so dad can put in information -->
         <?php
 
         try {
