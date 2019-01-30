@@ -91,3 +91,10 @@ footer {
   position: absolute;
   width: 100%;
 }
+.adminLogin {
+  text-align: center;
+  margin: 50px auto;
+}
+.adminLogin input {
+  margin: 15px 0 0 0;
+}
