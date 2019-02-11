@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a15e1b42-cce7-4bc1-9e58-48841a847b42" name="cebufunk-1" url="http://34.73.205.85">
+        <fileTransfer host="34.73.205.85" port="22" privateKey="C:\Users\Vinnie B\.ssh\arduinoPrivate.ppk" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

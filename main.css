@@ -1,20 +1,32 @@
+@media screen and (max-width: 768px){
+    body{
+        font-size: 1.5em;
+    }
+}
 ::-webkit-scrollbar {
   width: 0px;
 }
 html,
 body {
   height: 100%;
+  width: 100%;
   position: relative;
 }
 body {
   /* background: rgb(240, 240, 240) !important; */
   margin: 0;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
 }
-div,
-p,
-h1 {
-  font-family: Helvetica, sans-serif;
+
+li a {
+  color: black;
 }
+li a:hover{
+  color: #A9A9A9;
+  text-decoration: none;
+}
+.current-page {color: #A9A9A9;}
 .main-container {
   min-height: 100vh;
   overflow: hidden;
@@ -22,43 +34,60 @@ h1 {
   position: relative;
   padding-bottom: 100px;
 }
+.nav-bar {
+    font-size: 1em;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+}
+.nav-bar ul {
+    /*background-color: rgb(220, 220, 220);*/
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    max-width: 100%;
+}
+.nav-bar li {
+    display: inline;
+    line-height: 50px;
+    padding: 0 5% 0 5%;
+    vertical-align: middle;
+}
+.home-page-content-container{
+  text-align: center;
+  align-content: center;
+  position: relative;
+}
+.home-page-image-container{
+  text-align: center;
+  position: relative;
+}
+.bio-image {
+  margin: 10px;
+  text-align: center;
+  align-content: center;
+  border-radius: 3px;
+  height: 75%;
+  width: 75%;
+  max-width: 750px;
+  max-height: 750px;
+}
+.home-page-text-container {
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+.home-page-text-container h1 {
+  /*font-size: 3em;*/
+}
+.home-page-text-container p {
+  /*font-size: 2em;*/
+}
 
-.title-section {
-  text-align: center;
-}
-.title-section h1 {
-  font-size: 3em;
-}
-.title-section p {
-  font-size: 2em;
-}
-.title-section-bio-image {
-  margin-top: 10px;
-  border-radius: 50%;
-  height: 35%;
-  width: 35%;
-}
-.navbar {
-  font-size: 1.5em;
-  width: 100%;
-  height: 50px;
-}
-.navbar ul {
-  background-color: rgb(220, 220, 220);
-  overflow: hidden;
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  height: 50px;
-  width: 100%;
-}
-li {
-  display: inline;
-  line-height: 50px;
-  padding: 0 5% 0 5%;
-  vertical-align: middle;
-}
 .content-section {
   position: relative;
   margin-right: 25%;

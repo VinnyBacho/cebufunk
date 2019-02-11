@@ -6,6 +6,13 @@ session_start();
     <div class="row">
       
       <div class="col-xl-8 offset-xl-2 py-5">
+          <div class="navbar">
+              <ul>
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="bio.php">Bio</a></li>
+                  <li><a href="contact-cebu.php">Contact</a></li>
+              </ul>
+          </div>
       <?php notification(); ?>
         <h1>Contact Cebu!</h1>
         <p class="lead">
