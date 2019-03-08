@@ -9,7 +9,7 @@ function notification()
         $type = $_SESSION['notify']['type'];
         $message = $_SESSION['notify']['message'];
 
-        $html = '<div class="alert alert-'.$type.'">'.$message.'</div>';
+        $html = '<div class="alert alert-'.$type.'"><span>'.$message.'</span></div>';
 
         unset($_SESSION['notify']);
 
